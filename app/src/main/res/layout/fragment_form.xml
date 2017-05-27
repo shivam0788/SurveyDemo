@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="store.vconnect.com.surveydemo.fragment.FormFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:typeface="serif"
+        android:text="@string/hello_blank_fragment" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55dp">
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="match_parent">
+        </LinearLayout>
+            <Button
+                android:id="@+id/btnsubmitsurvey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="submit"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
